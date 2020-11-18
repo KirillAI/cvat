@@ -11,6 +11,7 @@
 - [How to install CVAT on Windows 10 Home](#how-to-install-cvat-on-windows-10-home)
 - [I do not have the Analytics tab on the header section. How can I add analytics](#i-do-not-have-the-analytics-tab-on-the-header-section-how-can-i-add-analytics)
 - [How to upload annotations to an entire task from UI when there are multiple jobs in the task](#how-to-upload-annotations-to-an-entire-task-from-ui-when-there-are-multiple-jobs-in-the-task)
+- [How to choose the file upload mode](#how-to-choose-the-file-upload-mode)
 
 ## How to update CVAT
 
@@ -132,3 +133,7 @@ You should build CVAT images with ['Analytics' component](../../../components/an
 
 You can upload annotation for a multi-job task from the Dasboard view or the Task view.
 Uploading of annotation from the Annotation view only affects the current job.
+
+## How to choose the file upload mode
+
+If the total file size is small (less than 100MB), then choose the "from computer" mode, otherwise - choose the "file sharing" mode. The files must be packed in a zip archive.
